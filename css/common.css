@@ -1,0 +1,365 @@
+body {
+    background-color: #fcfcfc;
+}
+
+.on-pointer {
+    cursor: pointer;
+}
+/*版心*/
+
+/*#region*/
+
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.colorRed {
+    color: red;
+}
+
+/*#endregion*/
+
+/*快捷导航模块*/
+
+/*#region*/
+
+.shortcut {
+    height: 31px;
+    line-height: 31px;
+    background-color: #f1f1f1;
+}
+
+.shortcut ul li {
+    float: left;
+}
+
+.shortcut .fl ul li:nth-child(2) {
+    margin-left: 10px;
+}
+
+.shortcut .fl ul li:nth-child(2) a:nth-child(1) {
+    margin-right: 6px;
+}
+
+.shortcut .fr ul li:nth-child(even) {
+    width: 1px;
+    height: 12px;
+    background-color: #666;
+    margin: 9px 15px 0;
+}
+
+/*#endregion*/
+
+/*头部区域*/
+
+/*#region*/
+
+.header {
+    position: relative;
+    height: 140px;
+    /*background-color: green;*/
+}
+
+.header .logo {
+    position: absolute;
+    top: 16px;
+    left: 16px;
+    width: 170px;
+    height: 100px;
+    /*background-color: red;*/
+}
+
+.header .logo h1 a {
+    display: block;
+    width: 170px;
+    height: 100px;
+    font-size: 0;
+    /*text-indent: -999px;*/
+    /*overflow: hidden;*/
+}
+
+.header .logo h1 a img {
+    width: 100%;
+    height: 100%;
+}
+
+.header .search {
+    position: absolute;
+    top: 25px;
+    left: 300px;
+    width: 538px;
+    height: 36px;
+    border: 2px solid red;
+}
+
+.header .search input {
+    float: left;
+    width: 450px;
+    height: 32px;
+    padding-left: 10px;
+}
+
+.header .search button {
+    float: left;
+    width: 84px;
+    height: 33px;
+    background-color: red;
+    font-size: 14px;
+    color: #fff;
+}
+
+.header .hotWords {
+    position: absolute;
+    top: 66px;
+    left: 307px;
+}
+
+.header .hotWords a {
+    margin: 0 10px;
+}
+
+.header .hotWords a:hover {
+    color: black;
+}
+
+.header .shopCar {
+    position: absolute;
+    top: 25px;
+    right: 60px;
+    width: 140px;
+    height: 35px;
+    border: 1px solid red;
+    line-height: 35px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.header .shopCar .count {
+    position: absolute;
+    top: -5px;
+    left: 105px;
+    padding: 0 5px;
+    height: 14px;
+    font-size: 8px;
+    line-height: 14px;
+    color: #fff;
+    background-color: red;
+    border-radius: 7px 7px 7px 0;
+}
+
+/* endregion */
+
+/*导航区域*/
+
+/*#region*/
+
+.nav {
+    height: 47px;
+    border-bottom: 2px solid red;
+}
+
+.nav .dropDown {
+    float: left;
+    width: 210px;
+    height: 45px;
+    background-color: #b1191a;
+}
+
+.nav .navItems {
+    float: left;
+}
+
+.nav .dropDown .dt {
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    font-size: 18px;
+    line-height: 45px;
+    text-align: center;
+}
+
+.nav .dropDown .dd {
+    /*display: none;*/
+    margin-top: 2px;
+    width: 210px;
+    height: 465px;
+    background-color: indianred;
+}
+
+.nav .dropDown .dd ul li {
+    position: relative;
+    margin-left: 2px;
+    padding-left: 10px;
+    height: 31px;
+    line-height: 31px;
+    color: #fff;
+}
+
+.nav .dropDown .dd ul li:after {
+    content: "\e6c8";
+    position: absolute;
+    top: 0px;
+    right: 10px;
+    font-size: 10px;
+}
+
+.nav .dropDown .dd ul li:hover {
+    background-color: #fff;
+    color: red;
+}
+
+.nav .dropDown .dd ul li:hover a {
+    color: red;
+}
+
+.nav .dropDown .dd ul li a {
+    font-size: 14px;
+    color: #fff;
+}
+
+.nav .navItems ul li {
+    float: left;
+}
+
+.nav .navItems ul li a {
+    display: block;
+    padding: 0 25px;
+    height: 45px;
+    line-height: 45px;
+}
+
+.nav .navItems ul li a:hover {
+    color: red;
+}
+
+/*endregion*/
+
+/*底部区域*/
+
+.footer {
+    margin-top: 30px;
+    padding-top: 30px;
+    height: 415px;
+    background-color: #f5f5f5;
+}
+
+.footer .w .mod_service {
+    height: 80px;
+    border-bottom: 1px solid #ccc;
+}
+
+.footer .w .mod_service ul li {
+    float: left;
+    width: 25%;
+    padding-left: 35px;
+}
+
+.footer .w .mod_service ul li:nth-child(1) p {
+    float: left;
+    margin-right: 8px;
+    width: 48px;
+    height: 50px;
+    background: url("../images/Footer-img.png") no-repeat 10px -192px;
+}
+
+.footer .w .mod_service ul li:nth-child(2) p {
+    float: left;
+    margin-right: 8px;
+    width: 46px;
+    height: 50px;
+    background: url("../images/Footer-img.png") no-repeat -36px -192px;
+}
+
+.footer .w .mod_service ul li:nth-child(3) p {
+    float: left;
+    margin-right: 8px;
+    width: 46px;
+    height: 50px;
+    background: url("../images/Footer-img.png") no-repeat -77px -192px;
+}
+
+.footer .w .mod_service ul li:nth-child(4) p {
+    float: left;
+    margin-right: 8px;
+    width: 50px;
+    height: 50px;
+    background: url("../images/Footer-img.png") no-repeat -118px -192px;
+}
+
+.service_txt h4 {
+    font-size: 14px;
+}
+
+.service_txt h6 {
+    font-size: 12px;
+}
+
+.mod_help {
+    padding-top: 20px;
+    height: 220px;
+    border-bottom: 1px solid #ccc;
+}
+
+.mod_help dl {
+    float: left;
+    width: 200px;
+}
+
+.mod_help dl:last-child {
+    text-align: center;
+}
+
+.mod_help dl:last-child a img {
+    width: 100px;
+    height: 100px;
+}
+
+.mod_help dl dt {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.mod_help dl dd a:hover {
+    color: red;
+}
+
+.mod_copyright .links {
+    margin: 0 auto;
+    height: 30px;
+    width: 1000px;
+}
+
+.links ul {
+    margin-top: 15px;
+}
+
+.mod_copyright .links ul li {
+    float: left;
+    line-height: 30px;
+}
+
+.mod_copyright .links ul li:nth-child(even) {
+    margin: 7px 5px;
+    width: 1px;
+    height: 15px;
+    background-color: black;
+}
+
+.mod_copyright .copyright {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.copyright h6 {
+    font-size: 14px;
+}

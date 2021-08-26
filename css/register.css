@@ -1,0 +1,135 @@
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.error {
+    color: red;
+}
+
+.safe {
+    color: palegreen;
+}
+
+/*header部分*/
+/*region*/
+header {
+    height: 92px;
+    border-bottom: 2px solid red;
+}
+
+.logo {
+    position: relative;
+    padding-top: 10px;
+    height: 82px;
+}
+
+    .logo img {
+        float: left;
+        width: 120px;
+        height: 100%;
+    }
+
+    .logo h1 {
+        position: absolute;
+        float: left;
+        left: 150px;
+        line-height: 82px;
+        color: red;
+        cursor: default;
+    }
+
+/*endregion*/
+/*main部分*/
+/*region*/
+main {
+    margin-top: 5px;
+    height: 550px;
+    border: 3px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #fafafa;
+}
+
+    main h3 {
+        padding-left: 15px;
+        height: 42px;
+        border-bottom: 3px solid #ccc;
+        background-color: #ececec;
+        line-height: 39px;
+        cursor: default;
+    }
+
+        main h3 span {
+            position: relative;
+            float: right;
+            right: 50px;
+            font-size: 14px;
+        }
+
+            main h3 span a {
+                color: red;
+            }
+
+.reg_form {
+    margin: 15px 0 0 300px;
+    width: 800px;
+}
+
+    .reg_form ul li {
+        margin: 20px 0;
+    }
+
+    .reg_form label {
+        display: inline-block;
+        width: 88px;
+        text-align: right;
+    }
+
+    .reg_form input {
+        padding-left: 10px;
+        width: 242px;
+        height: 37px;
+        border-bottom: 1px solid #ccc;
+        border-radius: 15px;
+    }
+
+    .reg_form p {
+        display: inline-block;
+    }
+
+.degree {
+    padding-left: 140px;
+}
+
+    .degree em {
+        padding: 0px 12px;
+        border-radius: 3px;
+    }
+
+        .degree em:nth-child(1) {
+            background-color: #a5c261;
+        }
+
+        .degree em:nth-child(2) {
+            background-color: #bb3e35;
+        }
+
+        .degree em:nth-child(3) {
+            background-color: #e8bf6a;
+        }
+
+.reg_form ul li:nth-child(8) {
+    padding-left: 100px;
+}
+
+    .reg_form ul li:nth-child(8) input {
+        padding-left: 20px;
+        width: 15px;
+        height: 15px;
+        vertical-align: middle;
+    }
+
+.reg_form ul li:nth-child(9) {
+    padding-left: 90px;
+}

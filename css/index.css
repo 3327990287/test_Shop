@@ -1,0 +1,517 @@
+/*首页专有模块*/
+
+/* 固定导航区域 */
+
+/* #region */
+.fixednav {
+	position: absolute;
+	left: 50%;
+	top: 300px;
+	margin-left: 600px;
+	width: 55px;
+	height: 225px;
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+.fixednav-container {
+	background-color: #ccc;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	font-size: 14px;
+	opacity: 0;
+	transition: opacity 1.5s;
+}
+
+.f1 {
+	flex: 1;
+}
+
+.flex-hcenter-vcenter {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/* #endregion */
+
+/*#region*/
+
+.main {
+	height: 465px;
+	margin-left: 210px;
+}
+
+.focus {
+	position: relative;
+	float: left;
+	margin: 10px 10px;
+	width: 710px;
+	height: 445px;
+	overflow: hidden;
+}
+
+.focus>a {
+	display: none;
+	position: absolute;
+	float: left;
+	font-size: 30px;
+	color: black;
+	z-index: 1;
+	transition: color .2s;
+}
+
+.focus>a:hover {
+	color: red;
+}
+
+.icon-zuojiantou {
+	top: 45%;
+	left: 15px;
+}
+
+.icon-youjiantou {
+	top: 45%;
+	left: 670px;
+}
+
+.focus ul {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 700%;
+}
+
+.focus ul li {
+	float: left;
+	width: 710px;
+	height: 455px;
+}
+
+.focus ul li a img {
+	width: 99%;
+	height: 99%;
+}
+
+.current {
+	color: red !important;
+}
+
+.focus .circle {
+	position: relative;
+	top: 380px;
+	left: 290px;
+	color: black;
+}
+
+.focus ol li {
+	float: left;
+	padding-left: 5px;
+	font-size: 30px;
+	cursor: pointer;
+}
+
+.newsFlash {
+	float: right;
+	width: 260px;
+	height: 465px;
+	/*background-color: green;*/
+}
+
+.newsFlash .news {
+	height: 250px;
+	/*background-color: pink;*/
+}
+
+.news .newsHeader {
+	position: relative;
+	background-color: rgb(215, 212, 207);
+	border-radius: 5px;
+	height: 50px;
+	line-height: 50px;
+	border-bottom: 1px dotted #e4e4e4;
+}
+
+.newsHeader h5 {
+	position: absolute;
+	float: left;
+	font-size: 16px;
+	left: 10px;
+}
+
+.newsHeader a {
+	position: absolute;
+	float: right;
+	display: block;
+	right: 20px;
+	font-size: 10px;
+}
+
+.newsHeader a:hover {
+	color: red;
+}
+
+.newsBody {
+	height: 200px;
+}
+
+.newsBody dl {
+	height: 40px;
+	width: 245px;
+	line-height: 40px;
+	border-bottom: 1px solid black;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	margin-left: 10px;
+}
+
+.newsBody dl dt {
+	float: left;
+	margin-right: 5px;
+}
+
+.newsBody h6 {
+	font-size: 14px;
+}
+
+.newsBody dl dd {
+	font-size: 8px;
+	vertical-align: bottom;
+}
+
+.newsBody dl dd a:hover {
+	color: red;
+}
+
+.commodity {
+	margin-top: 15px;
+	height: 200px;
+	background-color: pink;
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+.commodity ul li img {
+	height: 200px;
+	width: 260px;
+}
+
+/*#endregion*/
+
+/* 京东秒杀 */
+
+/* #region */
+
+.secKill {
+	margin: 10px auto;
+	height: 260px;
+}
+
+.secKill_hd {
+	width: 190px;
+	height: 260px;
+	float: left;
+	text-align: center;
+	background: url("../images/secKill.png") no-repeat;
+}
+
+.secKill_hd h3 {
+	margin-top: 20px;
+	font-size: 20px;
+	color: white;
+}
+
+.secKill_hd p {
+	margin-top: 110px;
+	margin-bottom: 20px;
+	color: white;
+}
+
+.secKill_hd_time i {
+	color: white;
+	font-size: 20px;
+	font-weight: 700;
+}
+
+.secKill_hd_time span {
+	display: inline-block;
+	margin: 0 5px;
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	border-radius: 50%;
+	background-color: black;
+	color: white;
+	font-weight: 600;
+}
+
+.secKill_bd {
+	float: left;
+	height: 260px;
+	width: 1010px;
+}
+
+.secKill_bd div {
+	float: left;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	margin-left: 12px;
+	width: 190px;
+	height: 260px;
+	text-align: center;
+}
+
+
+.secKill_bd div img {
+	margin-top: 5px;
+	width: 150px;
+	height: 150px;
+	transition: transform .5s;
+}
+
+.secKill_bd div img:hover {
+	transform: scale(105%);
+}
+
+.secKill div h4 {
+	margin-top: 5px;
+}
+
+.secKill_bd div i {
+	display: block;
+	padding: 0px 20px;
+	width: 190px;
+	text-align: center;
+	margin-top: 10px;
+	font-size: 12px;
+}
+
+/* #endregion */
+
+/* 每日推荐 */
+
+/* #region */
+.DailyRecommendation {
+	height: 340px;
+}
+
+.SpecialSprice {
+	border: 1px solid red;
+	float: left;
+	width: 598px;
+	height: 338px;
+}
+
+.SpecialSprice>header {
+	position: relative;
+	height: 60px;
+	line-height: 60px;
+}
+
+.SpecialSprice>header>.left {
+	position: absolute;
+	float: left;
+	width: 120px;
+	padding-left: 15px;
+	font-weight: 700;
+	font-size: 26px;
+	cursor: default;
+}
+
+.SpecialSprice>header>.right {
+	position: absolute;
+	float: right;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	right: 10px;
+	width: 300px;
+	height: 100%;
+}
+
+.SpecialSprice>header>.right div {
+	/* flex: 1; */
+	width: 45px;
+	height: 70%;
+	font-size: 16px;
+	font-weight: 500;
+	text-align: center;
+	cursor: pointer;
+	color: #999999;
+}
+
+.SpecialSprice>header>.right div:hover {
+	border-bottom: 3px solid red;
+}
+
+.SpecialSprice>aside {
+	position: relative;
+	width: 600px;
+	height: 280px;
+}
+
+.SpecialSprice>aside>div {
+	width: 200px;
+	height: 260px;
+	padding: 0 10px;
+	margin: 10px 0;
+	float: left;
+	cursor: pointer;
+	transition: color .3s;
+}
+
+.SpecialSprice>aside>div:nth-child(1) {
+	text-align: center;
+	background-color: #f8f8f9;
+}
+
+.SpecialSprice>aside>div:nth-child(1):hover {
+	color: red;
+}
+
+.SpecialSprice>aside>div:nth-child(1) img {
+	margin-top: 25px;
+	width: 120px;
+	height: 120px;
+}
+
+.SpecialSprice>aside>div:nth-child(1) p {
+	margin-top: 10px;
+	margin-bottom: 15px;
+	font-weight: 700;
+}
+
+.SpecialSprice>aside>div:nth-child(1) i {
+	color: red;
+	font-weight: 900;
+	font-size: 20px;
+}
+
+.SpecialSprice>aside>div:nth-child(2) {
+	background-color: #fff;
+}
+
+.recommend {
+	position: relative;
+	width: 180px;
+	height: 130px;
+	transition: color .3s;
+}
+
+.recommend:hover {
+	color: red;
+}
+
+.recommend img {
+	position: absolute;
+	top: 21px;
+	width: 85px;
+	height: 85px;
+}
+
+.recommend span {
+	width: 80px;
+	height: 85px;
+	position: absolute;
+	float: left;
+	left: 93px;
+	top: 20px;
+	font-weight: 700;
+}
+
+.recommend span>p {
+	margin-top: 15px;
+	font-size: 18px;
+	color: red;
+}
+
+/* #endregion */
+
+/* 闪购 */
+
+/* #region */
+.FlashBuying {
+	float: left;
+	width: 600px;
+	height: 100%;
+}
+
+.FlashBuying header {
+	width: 600px;
+	height: 60px;
+	line-height: 60px;
+}
+
+.FlashBuying-left {
+	margin-left: 15px;
+	font-size: 26px;
+	font-weight: 700;
+}
+
+.FlashBuying-content span {
+	margin-left: 3px;
+	float: left;
+	display: block;
+	width: 197px;
+	height: 280px;
+}
+
+.FlashBuying-content span:nth-child(1) {
+	padding-top: 15px;
+	text-align: center;
+}
+
+.FlashBuying-content span:nth-child(1) p {
+	padding: 7px 0 3px;
+	font-weight: 700;
+	font-size: 16px;
+}
+
+.FlashBuying-content span:nth-child(1) i {
+	font-size: 10px;
+}
+
+.image2 {
+	padding-top: 3px;
+}
+
+.FlashBuying-content span:nth-child(1) a {
+	transition: color .4s;
+}
+
+.FlashBuying-content span:nth-child(1) a:hover {
+	color: red;
+}
+
+.FlashBuying-content span:nth-child(1) .image2 {
+	width: 130px;
+	height: 130px;
+}
+
+.FlashBuying-content span:nth-child(2) {
+	text-align: center;
+}
+
+.showPic-img {
+	margin: 35px 0;
+	transition: transform .3s;
+}
+
+.showPic-img:hover {
+	transform: scale(105%);
+}
+
+.showPic-img img {
+	width: 100px;
+	height: 50px;
+}
+
+.FlashBuying-content span:nth-child(3) {
+	text-align: center;
+}
+
+/* #endregion */

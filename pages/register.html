@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+	<head>
+		<meta charset="UTF-8">
+		<link rel="shortcut icon" href="../favicon.ico">
+		<!--引入初始化css-->
+		<link rel="stylesheet" href="../css/base.css">
+		<!--引入注册页css-->
+		<link rel="stylesheet" href="../css/register.css">
+		<!--引入公共样式-->
+		<link rel="stylesheet" href="../css/common.css">
+		<!-- 引入字体图标样式 -->
+		<link rel="stylesheet" href="../fonts/iconfont.css">
+		<title>个人注册</title>
+	</head>
+	<body>
+		<div class="w">
+			<!--header部分-->
+			<header>
+				<div class="logo">
+					<a href="../index.html">
+						<img src="../images/Logo.gif" alt="首页">
+					</a>
+					<h1>欢迎注册</h1>
+				</div>
+			</header>
+			<!--main部分-->
+			<main>
+				<h3>
+					注册新用户
+					<span>我有账号,去<a href="login.html">登录</a></span>
+				</h3>
+				<div class="reg_form">
+					<ul>
+						<li>
+							<label for="">手机号:</label>
+							<input type="tel">
+							<span class="error">
+								<i class="iconfont icon-cuowu"></i>
+								<p>手机号输入不正确,请重新输入</p>
+							</span>
+						</li>
+						<li>
+							<label for="">短信验证码:</label>
+							<input type="text">
+							<span class="error">
+								<i class="iconfont icon-cuowu"></i>
+								<p>手机号输入不正确,请重新输入</p>
+							</span>
+						</li>
+						<li>
+							<label for="">邮箱:</label>
+							<input type="email">
+							<span class="error">
+								<i class="iconfont icon-zhengque"></i>
+							</span>
+						</li>
+						<li>
+							<label for="">登录账号:</label>
+							<input type="text">
+							<span class="error">
+								<i class="iconfont icon-cuowu"></i>
+								<p>格式不正确,仅支持字母与数字</p>
+							</span>
+						</li>
+						<li>
+							<label for="">登录密码:</label>
+							<input type="password">
+							<span class="error">
+								<i class="iconfont icon-zhengque"></i>
+							</span>
+						</li>
+						<li class="degree">
+							安全程度
+							<em>强</em>
+							<em>中</em>
+							<em>弱</em>
+						</li>
+						<li>
+							<label for="">确认密码:</label>
+							<input type="password">
+							<span class="error">
+								<i class="iconfont icon-zhengque"></i>
+							</span>
+						</li>
+						<li>
+							<input type="checkbox"> 同意
+							<a href="https://in.m.jd.com/help/app/register_info.html" target="_blank"
+								title="京东用户协议">协议</a>
+							并注册
+						</li>
+						<li>
+							<input type="submit">
+						</li>
+					</ul>
+				</div>
+			</main>
+			<footer>
+
+			</footer>
+		</div>
+	</body>
+</html>

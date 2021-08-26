@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="我是seo优化的网站说明" />
+	<meta name="keywords" content="我是seo优化的关键字" />
+	<!-- 引入字体图标样式 -->
+	<link rel="stylesheet" href="fonts/iconfont.css">
+	<!-- 引入初始化样式 -->
+	<link rel="stylesheet" href="css/base.css">
+	<!-- 引入公共样式 -->
+	<link rel="stylesheet" href="css/common.css">
+	<!--引入主要样式-->
+	<link rel="stylesheet" href="css/index.css">
+	<link rel="shortcut icon" href="favicon.ico">
+	<title>电商购物</title>
+	<!-- 动画函数 -->
+	<script src="./js/animate.js"></script>
+	<!-- 轮播图 -->
+	<script src="./js/main-swiper.js"></script>
+	<!-- 固定导航栏 -->
+	<script src="./js/fixednav.js"></script>
+	<!-- 返回顶部 -->
+	<script src='./js/goTop.js'></script>
+</head>
+
+<body>
+	<!--快捷导航区域-->
+	<section class="shortcut">
+		<div class="w">
+			<div class="fl">
+				<ul>
+					<li>欢迎!</li>
+					<li>
+						<a href="pages/login.html">请登录</a>
+						<a href="pages/register.html" class="colorRed">我是新用户</a>
+					</li>
+				</ul>
+			</div>
+			<div class="fr">
+				<ul>
+					<li>订单</li>
+					<li></li>
+					<li class="arrow-icon">我的</li>
+					<li></li>
+					<li>会员</li>
+					<li></li>
+					<li>采购</li>
+					<li></li>
+					<li class="iconfont icon-zuosanjiao">关注我</li>
+					<li></li>
+					<li class="iconfont icon-zuosanjiao">客户服务</li>
+					<li></li>
+					<li class="iconfont icon-zuosanjiao">网站导航</li>
+				</ul>
+			</div>
+		</div>
+	</section>
+	<!--头部区域-->
+	<header class="header w">
+		<!--logo模块-->
+		<div class="logo">
+			<h1>
+				<a href="index.html" title="电商网页">
+					电商网页
+					<img src="./images/Logo.gif" alt="">
+				</a>
+			</h1>
+		</div>
+		<!--搜索模块-->
+		<div class="search">
+			<input type="search" name="" id="" placeholder="iWatch 健康的未来,现在带上">
+			<button>搜索</button>
+		</div>
+		<!--热词模块-->
+		<div class="hotWords">
+			<a href="#" class="colorRed">电商首发</a>
+			<a href="#" class="colorRed">百亿补贴</a>
+			<a href="#" class="colorRed">9.9团购</a>
+			<a href="#" class="colorRed">满100减50</a>
+			<a href="#" class="colorRed">办公用品</a>
+			<a href="#" class="colorRed">iMac</a>
+			<a href="#" class="colorRed">iPhone</a>
+		</div>
+		<!--购物车模块-->
+		<div class="shopCar iconfont icon-gouWuChe icon-yousanjiao">
+			我的购物车
+			<i class="count">2</i>
+		</div>
+	</header>
+	<!--导航区域-->
+	<nav class="nav">
+		<div class="w">
+			<div class="dropDown">
+				<div class="dt">
+					商品分类
+				</div>
+				<div class="dd">
+					<ul>
+						<li class="iconfont">
+							<a href="#">家用电器</a>
+						</li>
+						<li class="iconfont">
+							<a href="#">手机</a>,
+							<a href="#">数码</a>,
+							<a href="#">通信</a>
+						</li>
+						<li class="iconfont">
+							<a href="#">iPhone</a>,
+							<a href="#">iMac</a>,
+							<a href="#">airpods</a>
+						</li>
+						<li class="iconfont">
+							<a href="#">华为手机</a>,
+							<a href="#">华为电脑</a>,
+							<a href="#">荣耀</a>
+						</li>
+						<li class="iconfont">
+							<a href="#">电脑</a>,
+							<a href="#">办公</a>
+						</li>
+						<li class="iconfont">
+							<a href="#">家居</a>,
+							<a href="#">家具</a>,
+							<a href="#">家装</a>,
+							<a href="#">厨具</a>
+						</li>
+						<li class="iconfont">
+							<a href="#">男装</a>,
+							<a href="#">女装</a>,
+							<a href="#">童装</a>,
+							<a href="#">内衣</a>
+						</li>
+						<li class="iconfont">
+							<a href="#">个性美妆</a>,
+							<a href="#">清洁用品</a>,
+							<a href="#">宠物</a>
+						</li>
+						<li class="iconfont">
+							<a href="#">男鞋</a>,
+							<a href="#">女鞋</a>,
+							<a href="#">珠宝</a>,
+							<a href="#">奢侈品</a>
+						</li>
+						<li class="iconfont">
+							<a href="#">运动户外</a>,
+							<a href="#">手表</a>
+						</li>
+						<li class="iconfont">
+							<a href="#">汽车</a>,
+							<a href="#">汽车用品</a>
+						</li>
+						<li class="iconfont">
+							<a href="#">母婴</a>,
+							<a href="#">玩具</a>,
+							<a href="#">乐器</a>
+						</li>
+						<li class="iconfont">
+							<a href="#">食品</a>,
+							<a href="#">酒水</a>,
+							<a href="#">生鲜</a>,
+							<a href="#">优选水果</a>
+						</li>
+						<li class="iconfont">
+							<a href="#">医药保健</a>
+						</li>
+						<li class="iconfont">
+							<a href="#">图书</a>,
+							<a href="#">音乐</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="navItems">
+				<ul>
+					<li>
+						<a href="#" class="iconfont icon-pingguo">苹果专区</a>
+					</li>
+					<li>
+						<a href="#" class="iconfont icon-huawei">华为专区</a>
+					</li>
+					<li>
+						<a href="#" class="iconfont icon-xiaomi">小米专区</a>
+					</li>
+					<li>
+						<a href="#" class="iconfont icon-shuiguo">生鲜购</a>
+					</li>
+					<li>
+						<a href="#" class="iconfont icon-yaopin">送药上门</a>
+					</li>
+					<li>
+						<a href="#" class="iconfont icon-chongwu">宠物</a>
+					</li>
+					<li>
+						<a href="#" class="iconfont icon-5">旅游</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<!-- 固定导航区域 -->
+	<nav class="fixednav on-pointer">
+		<div class="fixednav-container">
+			<div class="f-c-go-top f1 flex-hcenter-vcenter" style="
+					border-bottom: 1px solid pink;
+					font-size: 10px;
+				">
+				回到顶部
+			</div>
+			<div class="f-c-recommend f1 flex-hcenter-vcenter" style="
+					border-bottom: 1px solid pink;
+					font-size: 10px;
+				">
+				每日推荐
+			</div>
+			<div class="f-c-feedback f1 flex-hcenter-vcenter" style="
+				border-bottom: 1px solid pink;
+			">
+				反馈
+			</div>
+			<div class="customer-service f1 flex-hcenter-vcenter">
+				客服
+			</div>
+		</div>
+	</nav>
+	<!--首页专有模块-->
+	<div class="w">
+		<main class="main">
+			<!-- 轮播图 -->
+			<div class="focus">
+				<!-- 滚动按钮 -->
+				<a href="javascript:;" class="iconfont icon-zuojiantou"></a>
+				<a href="javascript:;" class="iconfont icon-youjiantou"></a>
+				<!-- 轮播图start -->
+				<ul>
+					<li>
+						<a href="#">
+							<img src="./upload/focus1.jpg" alt="">
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="./upload/focus2.jpg" alt="">
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="./upload/focus3.jpg" alt="">
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="./upload/focus4.jpg" alt="">
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="./upload/focus5.jpg" alt="">
+						</a>
+					</li>
+				</ul>
+				<!-- 轮播图end-->
+				<!-- 小圆圈 -->
+				<ol class="circle">
+				</ol>
+			</div>
+			<div class="newsFlash">
+				<div class="news">
+					<div class="newsHeader">
+						<h5>新闻</h5>
+						<a href="#" class="iconfont icon-yousanjiao">更多资讯</a>
+					</div>
+					<div class="newsBody">
+						<dl>
+							<dt>
+								<h6>苹果头条: </h6>
+							</dt>
+							<dd>
+								<a href="#">苹果突然宣布参与今年电商平台618特惠!!!苹果突然宣布参与今年电商平台618特惠</a>
+							</dd>
+						</dl>
+						<dl>
+							<dt>
+								<h6>华为头条: </h6>
+							</dt>
+							<dd>
+								<a href="#">华为宣布6.2日正式开始鸿蒙公测!!!</a>
+							</dd>
+						</dl>
+						<dl>
+							<dt>
+								<h6>小米头条: </h6>
+							</dt>
+							<dd>
+								<a href="#">MIUI12.6优化正是来袭,网友说.....</a>
+							</dd>
+						</dl>
+						<dl>
+							<dt>
+								<h6>电商头条: </h6>
+							</dt>
+							<dd>
+								<a href="#">京东淘宝正式打响618争夺战,谁才是真正的赢家</a>
+							</dd>
+						</dl>
+						<dl>
+							<dt>
+								<h6>好物推荐: </h6>
+							</dt>
+							<dd>
+								<a href="#">高考来袭,你也许需要这些好物</a>
+							</dd>
+						</dl>
+					</div>
+				</div>
+				<div class="commodity">
+					<ul>
+						<li><img src="./upload/commodity1.jpg" alt=""></li>
+					</ul>
+				</div>
+			</div>
+		</main>
+	</div>
+	<!--京东秒杀-->
+	<div class="w secKill">
+		<div class="secKill_hd">
+			<h3>秒杀</h3>
+			<p><strong>18:00场</strong> 距结束</p>
+			<div class="secKill_hd_time">
+				<span>12</span>
+				<i>:</i>
+				<span>12</span>
+				<i>:</i>
+				<span>12</span>
+			</div>
+			<script>
+				const spans = document.querySelectorAll('.secKill_hd_time span');
+
+				function countDown(time) {
+					let nowTime = +new Date();
+					let secKillTime = +new Date(time);
+					let resultTime = (secKillTime - nowTime) / 1000;
+					//小时
+					let h = resultTime / 60 / 60 % 24;
+					h = parseInt(h.toString());
+					h = h < 10 ? '0' + h : h;
+					//分钟
+					let m = resultTime / 60 % 60;
+					m = parseInt(m.toString());
+					m = m < 10 ? '0' + m : m;
+					//秒
+					let s = resultTime % 60;
+					s = parseInt(s.toString());
+					s = s < 10 ? '0' + s : s;
+					//渲染到页面
+					spans[0].innerHTML = h;
+					spans[1].innerHTML = m;
+					spans[2].innerHTML = s;
+				}
+
+				//抢购时间
+				let year = new Date().getFullYear();
+				let month = new Date().getMonth() + 1;
+				let day = new Date().getDate()
+				let qgTime = `${year}-${month}-${day}`;
+				setInterval(() => {
+					countDown(`${qgTime} 24:00:00`);
+				}, 1000)
+			</script>
+		</div>
+		<div class="secKill_bd">
+			<div>
+				<a href="https://www.mi.com/mi11ultra" target="_blank">
+					<img src="./upload/xiaomi11ultra.webp" alt="">
+					<h4>小米11Ultra</h4>
+					<i>2k四微曲面屏,专业级摄影手机,2k四微曲面屏,专业级摄影手机</i>
+				</a>
+			</div>
+			<div>
+				<a href="https://www.mi.com/mixfold" target="_blank">
+					<img src="./upload/xiaomimixfold.webp" alt="">
+					<h4>小米MIX FOLD</h4>
+					<i>折叠大屏 | 自研芯片</i>
+				</a>
+			</div>
+			<div>
+				<a href="https://www.mi.com/mi11Pro" target="_black">
+					<img src="./upload/xiaomi11pro.webp" alt="" />
+					<h4>小米11Pro</h4>
+					<i>超级显示屏,骁龙888</i>
+				</a>
+			</div>
+			<div>
+				<a href="https://www.mi.com/buy/detail?product_id=14031" target="_black">
+					<img src="./upload/K40.webp" alt="">
+					<h4>红米K40游戏增强版</h4>
+					<i>轻薄电竞设计</i>
+				</a>
+			</div>
+			<div>
+				<a href="https://www.mi.com/buy/detail?product_id=13812" target="_black">
+					<img src="./upload/heisha4.webp" alt="">
+					<h4>黑鲨4 Pro</h4>
+					<i>黑鲨4Pro</i>
+				</a>
+			</div>
+		</div>
+
+	</div>
+	<!--每日推荐-->
+	<div class="w">
+		<div class="DailyRecommendation">
+			<div class="SpecialSprice">
+				<header>
+					<div class="left">每日特价</div>
+					<div class="right">
+						<div>家电</div>
+						<div>数码</div>
+						<div>衣物</div>
+						<div>居家</div>
+					</div>
+				</header>
+				<aside>
+					<div>
+						<img src="./upload/DailyRecommendation-naifen.webp" alt="">
+						<p>今日特价奶粉,君乐宝婴幼儿奶粉</p>
+						<i>￥148</i>
+					</div>
+					<div>
+						<div class="recommend">
+							<img src="./upload/DailyRecommendation-liulian.webp" alt="">
+							<span>
+								<i>猫山王特价榴莲,京东快速达到</i>
+								<p>￥78</p>
+							</span>
+						</div>
+						<div class="recommend">
+							<img src="./upload/DailyRecommendation-shuiyangsuanmianpian.webp" alt="">
+							<span>
+								<i>水杨酸面膜倾情销售</i>
+								<p>￥148</p>
+							</span>
+						</div>
+					</div>
+					<div>
+						<div class="recommend">
+							<img src="./upload/DailyRecommendation-matongsai.webp" alt="">
+							<span>
+								<i>专业疏通下水道,用了都说好</i>
+								<p>￥14</p>
+							</span>
+						</div>
+						<div class="recommend">
+							<img src="./upload/DailyRecommendation-shoes.webp" alt="">
+							<span>
+								<i>轻量级跑鞋,不止于好看</i>
+								<p>￥99</p>
+							</span>
+						</div>
+					</div>
+				</aside>
+			</div>
+			<div class="FlashBuying">
+				<header>
+					<div class="FlashBuying-left">
+						品牌闪购
+					</div>
+				</header>
+				<main class="FlashBuying-content">
+					<span>
+						<img class="image1" src="./upload/FlashBuying-pinpai.webp" alt="">
+						<a href="#">
+							<p>京东自营电脑椅</p>
+							<i>闪购专场 保价7日 | 仅剩<strong>2</strong>天</i>
+							<img class="image2" src="./upload/FlashBuying-shugui.webp" alt="">
+						</a>
+					</span>
+					<span class="showPic">
+						<div class="showPic-img">
+							<a href="#">
+								<img src="./upload/pinpai1.webp" alt="">
+							</a>
+						</div>
+						<div class="showPic-img">
+							<a href="#">
+								<img src="./upload/pinpai2.webp" alt="">
+							</a>
+						</div>
+						<div class="showPic-img">
+							<a href="#">
+								<img src="./upload/pinpai3.webp" alt="">
+							</a>
+						</div>
+					</span>
+					<span class="showPic">
+						<div class="showPic-img">
+							<a href="#">
+								<img src="./upload/pinpai4.webp" alt="">
+							</a>
+						</div>
+						<div class="showPic-img">
+							<a href="#">
+								<img src="./upload/pinpai5.webp" alt="">
+							</a>
+						</div>
+						<div class="showPic-img">
+							<a href="#">
+								<img src="./upload/pinpai6.webp" alt="">
+							</a>
+						</div>
+					</span>
+				</main>
+			</div>
+		</div>
+	</div>
+	<!--底部区域-->
+	<footer class=" footer">
+		<div class="w">
+			<div class="mod_service">
+				<ul>
+					<li>
+						<p></p>
+						<div class="service_txt">
+							<h4>正品保证</h4>
+							<h6>正品保证,提供发票</h6>
+						</div>
+					</li>
+					<li>
+						<p></p>
+						<div class="service_txt">
+							<h4>快速到达</h4>
+							<h6>京东快递,快速到达</h6>
+						</div>
+					</li>
+					<li>
+						<p></p>
+						<div class="service_txt">
+							<h4>品质保证</h4>
+							<h6>专业检查,品质保证</h6>
+						</div>
+					</li>
+					<li>
+						<p></p>
+						<div class="service_txt">
+							<h4>省时省力</h4>
+							<h6>专业人员,上门服务</h6>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<div class="mod_help">
+				<dl>
+					<dt>服务指南</dt>
+					<dd><a href="#">苹果解答</a></dd>
+					<dd><a href="#">华为解答</a></dd>
+					<dd><a href="#">小米解答</a></dd>
+					<dd><a href="#">生鲜购解答</a></dd>
+					<dd><a href="#">送药上门解答</a></dd>
+					<dd><a href="#">宠物解答</a></dd>
+					<dd><a href="#">旅游解答</a></dd>
+				</dl>
+				<dl>
+					<dt>支付问题</dt>
+					<dd><a href="#">微信解答</a></dd>
+					<dd><a href="#">支付宝解答</a></dd>
+					<dd><a href="#">Apple Pay解答</a></dd>
+					<dd><a href="#">银联支付解答</a></dd>
+					<dd><a href="#">他人代付解答</a></dd>
+					<dd><a href="#">花呗解答</a></dd>
+					<dd><a href="#">京东白条解答</a></dd>
+				</dl>
+				<dl>
+					<dt>快递解答</dt>
+					<dd><a href="#">快递公司</a></dd>
+					<dd><a href="#">商家快递</a></dd>
+					<dd><a href="#">上门取件</a></dd>
+					<dd><a href="#">配送范围</a></dd>
+					<dd><a href="#">快递时间</a></dd>
+					<dd><a href="#">加入电商快递</a></dd>
+					<dd><a href="#">驿站查询</a></dd>
+				</dl>
+				<dl>
+					<dt>售后服务</dt>
+					<dd><a href="#">苹果售后</a></dd>
+					<dd><a href="#">华为售后</a></dd>
+					<dd><a href="#">小米售后</a></dd>
+					<dd><a href="#">生鲜购售后</a></dd>
+					<dd><a href="#">送药上门售后</a></dd>
+					<dd><a href="#">宠物售后</a></dd>
+					<dd><a href="#">旅游售后</a></dd>
+				</dl>
+				<dl>
+					<dt>其他</dt>
+					<dd><a href="#">加入我们</a></dd>
+					<dd><a href="#">2021校招</a></dd>
+					<dd><a href="#">招聘岗位</a></dd>
+					<dd><a href="#">人工服务</a></dd>
+					<dd><a href="#">公益活动</a></dd>
+					<dd><a href="#">法律部门</a></dd>
+					<dd><a href="#">社会中心</a></dd>
+				</dl>
+				<dl>
+					<dt>帮助中心</dt>
+					<dd><a href="#"><img src="./images/HelpCenter.jpg" alt=""></a></dd>
+					<dd>
+						<h5>电商平台客户端</h5>
+					</dd>
+				</dl>
+			</div>
+			<div class="mod_copyright w">
+				<div class="links">
+					<ul>
+						<li><a href="#">联系我们</a></li>
+						<li></li>
+						<li><a href="#">关于我们</a></li>
+						<li></li>
+						<li><a href="#">联系客服</a></li>
+						<li></li>
+						<li><a href="#">商家入驻</a></li>
+						<li></li>
+						<li><a href="#">营销中心</a></li>
+						<li></li>
+						<li><a href="#">手机电商平台</a></li>
+						<li></li>
+						<li><a href="#">友情链接</a></li>
+						<li></li>
+						<li><a href="#">销售联盟</a></li>
+						<li></li>
+						<li><a href="#">电商平台社区</a></li>
+						<li></li>
+						<li><a href="#">电商平台公益</a></li>
+						<li></li>
+						<li><a href="#">English Site</a></li>
+						<li></li>
+						<li><a href="#">Center Server</a></li>
+					</ul>
+				</div>
+				<div class="copyright">
+					<h6>
+						公司地址:xxx国xxx省xxx市xxx区xxx街道xxx号xxx层xxx室;法定注册人:张小三,李小巫,王晓六,贾宝玉,施耐庵,孙玉空,猪八戒,唐僧
+					</h6>
+				</div>
+			</div>
+		</div>
+	</footer>
+</body>
+
+</html>

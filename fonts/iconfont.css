@@ -1,0 +1,81 @@
+@font-face {
+  font-family: "iconfont"; /* Project id  */
+  src: url('iconfont.ttf?t=1624883477170') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-5:before {
+  content: "\e64a";
+}
+
+.icon-xiaomi:before {
+  content: "\e661";
+}
+
+.icon-pingguo:before {
+  content: "\e624";
+}
+
+.icon-chongwu:before {
+  content: "\e608";
+}
+
+.icon-huawei:before {
+  content: "\e82e";
+}
+
+.icon-zhengque:before {
+  content: "\e627";
+}
+
+.icon-qicheqianlian-:before {
+  content: "\e618";
+}
+
+.icon-youjiantou:before {
+  content: "\e609";
+}
+
+.icon-zuojiantou:before {
+  content: "\e60a";
+}
+
+.icon-shangjiantou:before {
+  content: "\e657";
+}
+
+.icon-cuowu:before {
+  content: "\e64b";
+}
+
+.icon-shuiguo:before {
+  content: "\e7f0";
+}
+
+.icon-fankui:before {
+  content: "\e62a";
+}
+
+.icon-yaopin:before {
+  content: "\e6fb";
+}
+
+.icon-yousanjiao:before {
+  content: "\e6c8";
+}
+
+.icon-zuosanjiao:before {
+  content: "\e6c9";
+}
+
+.icon-kefu:before {
+  content: "\f40d";
+}
+
